@@ -26,10 +26,10 @@ export function evenGame() {
       result += 1;
       console.log('Correct!');
       continue;
-    } else console.log(`'${answer}' is wrong answer ;(. Correct answer was  ${x} Let's try again, ${name}`);
+    } else console.log(`"${answer}" is wrong answer ;(. Correct answer was "${x}" \nLet's try again, ${name}`);
     break;
   }
   if (result === 3) {
-    console.log(`Congratulations, ${name}`);
+    console.log(`Congratulations, ${name}!`);
   }
 }
