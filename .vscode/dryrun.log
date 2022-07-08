@@ -1,5 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
 make: Entering directory `/Users/elenadyachkova/frontend-project-lvl1'
+npm ci
 make: Leaving directory `/Users/elenadyachkova/frontend-project-lvl1'
  
-Makefile:4: *** missing separator.  Stop.
-
