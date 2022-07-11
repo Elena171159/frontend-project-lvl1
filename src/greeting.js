@@ -7,8 +7,9 @@ export function greeting() {
   name = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${name}!`);
 }
-
-export const getRandom = () => Math.ceil(Math.random() * 10);
+export function getRandom(min, max) {
+  return Math.ceil(Math.random() * (max - min) + min);
+}
 
 export const commonAction = (_rule, questionAnswer) => {
   console.log(_rule);

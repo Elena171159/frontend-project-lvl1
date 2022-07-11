@@ -10,7 +10,7 @@ function even(num) {
 }
 const rule = ('Answer "yes" if the number is even, otherwise answer "no".');
 const makeEvenGame = () => {
-  const gameQuestion = getRandom();
+  const gameQuestion = getRandom(1, 100);
   const gameAnswer = even(gameQuestion);
   return [gameQuestion, gameAnswer];
 };
