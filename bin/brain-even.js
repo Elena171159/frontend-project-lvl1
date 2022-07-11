@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // eslint-disable-next-line import/no-unresolved
 import startevenGame from '../src/evenGame.js';
-import { greeting } from '../src/greeting.js';
+import { greeting } from '../src/index.js';
 
 greeting();
 startevenGame();
