@@ -1,6 +1,6 @@
 import {
   commonAction, getRandom,
-} from './greeting.js';
+} from './index.js';
 
 function even(num) {
   if (num % 2 === 0) {

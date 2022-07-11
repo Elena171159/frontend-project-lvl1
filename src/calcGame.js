@@ -1,6 +1,6 @@
 import {
   commonAction, getRandom,
-} from './greeting.js';
+} from './index.js';
 
 const rule = ('What is the result of the expression?');
 const checkAnswer = (q) => {
