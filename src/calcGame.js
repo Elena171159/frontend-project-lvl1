@@ -22,7 +22,7 @@ const makeCalkGame = () => {
   const getRandomOperator = () => Math.floor(Math.random() * (2 - 0 + 1) + 0);
   const number = getRandomOperator();
   const operator = operators[number];
-  const gameQuestion = `${getRandom()} ${operator} ${getRandom()}`;
+  const gameQuestion = `${getRandom(1, 100)} ${operator} ${getRandom(1, 100)}`;
   const gameAnswer = checkAnswer(gameQuestion);
 
   return [gameQuestion, gameAnswer];
