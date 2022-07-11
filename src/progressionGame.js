@@ -1,6 +1,6 @@
 import {
   commonAction, getRandom,
-} from './greeting.js';
+} from './index.js';
 
 const rule = 'What number is missing in the progression?';
 const makeProgression = (start, step) => {
