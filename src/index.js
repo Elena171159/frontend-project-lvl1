@@ -12,7 +12,7 @@ const launchGames = (_rule, questionAnswer) => {
     if (gameAnswer === UserAnswer) {
       console.log('Correct!');
     } else {
-      console.log(`"${UserAnswer}" is wrong answer ;(. Correct answer was "${gameAnswer}" \nLet's try again, ${name}`);
+      console.log(`"${UserAnswer}" is wrong answer ;(. Correct answer was "${gameAnswer}" \nLet's try again, ${name}!`);
       return;
     }
   }
