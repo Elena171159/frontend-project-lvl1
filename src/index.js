@@ -16,6 +16,6 @@ const launchGames = (_rule, questionAnswer) => {
       return;
     }
   }
-  console.log(`Congratulations, ${name}`);
+  console.log(`Congratulations, ${name}!`);
 };
 export default launchGames;
