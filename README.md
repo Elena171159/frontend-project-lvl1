@@ -1,6 +1,7 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Elena171159/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Elena171159/frontend-project-lvl1/actions)
 <a href="https://codeclimate.com/github/Elena171159/frontend-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/eee7087d1b186138b99a/maintainability" /></a>
+
 This project includes 5 games, in each game the player is given 3 question to which he must answer correctly
  ##  Setup
  To setup games, clone this reposetory and enter the commands:
