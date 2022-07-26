@@ -1,4 +1,4 @@
-import launchGames from '../index.js';
+import launchGame from '../index.js';
 import getRandom from '../utils.js';
 
 const rule = 'What number is missing in the progression?';
@@ -21,6 +21,6 @@ const makeProgressionGame = () => {
   return [gameQuestion, gameAnswer];
 };
 const startProgressionGame = () => {
-  launchGames(rule, makeProgressionGame);
+  launchGame(rule, makeProgressionGame);
 };
 export default startProgressionGame;
